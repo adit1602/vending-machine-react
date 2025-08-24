@@ -4,36 +4,43 @@
       "id": "1",
       "name": "Aqua",
       "price": 5000,
-      "stock": 4,
-      "image": "src/assets/realaqua.jpg"
+      "stock": 19,
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//105/MTA-10881878/aqua_aqua-air-mineral-btl-600-ml_full01.jpg"
     },
     {
       "id": "2",
       "name": "Coca Cola",
       "price": 8000,
       "stock": 2,
-      "image": "src/assets/cocacola.jpg"
+      "image": "https://www.lansgrupo.com/wp-content/uploads/2022/06/Coca-Cola-2.25-L-Bottle.jpg"
     },
     {
       "id": "3",
       "name": "Chips",
       "price": 7000,
       "stock": 20,
-      "image": "src/assets/chitato.jpg"
+      "image": "https://i5.walmartimages.com/seo/Lay-s-Classic-Potato-Chips-8-oz-Bag_f1852517-59f2-467f-b176-3ea1f2b098ae.a06a239111071c1595ab75cf3bf2323f.jpeg"
     },
     {
       "id": "4",
       "name": "Chocolate",
       "price": 10000,
       "stock": 10,
-      "image": "src/assets/chocolate.jpg"
+      "image": "https://image.astronauts.cloud/product-images/2025/5/cadburyoriginal85_328de4fd-5db4-4657-812c-b4ff751facf0_900x900.jpg"
     },
     {
       "id": "5",
       "name": "Tea Bottle",
       "price": 6000,
       "stock": 3,
-      "image": "src/assets/tehbotol.jpg"
+      "image": "https://kliktobuy.com/wp-content/uploads/2025/02/teh-botol-sosro-original-1-liter_8996006856180.jpg"
+    },
+    {
+      "id": "8491",
+      "name": "le minerale",
+      "price": 11000,
+      "stock": 4,
+      "image": "https://d2qjkwm11akmwu.cloudfront.net/products/338234_18-9-2019_15-50-20-1665805161.webp"
     }
   ],
   "transactions": [
@@ -72,6 +79,12 @@
       "productName": "Tea Bottle",
       "price": 6000,
       "date": "2025-08-24T06:52:31.603Z"
+    },
+    {
+      "id": "d19e",
+      "productName": "Aqua",
+      "price": 5000,
+      "date": "2025-08-24T07:12:50.931Z"
     }
   ]
 }
