@@ -7,12 +7,12 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { productSchema, type ProductFormData } from "src/schemas/productSchema";
-import { formatCurrency } from "src/utils/currency";
-import type { Product } from "src/types";
+import { productSchema, type ProductFormData } from "@/schemas/productSchema";
+import { formatCurrency } from "@/utils/currency";
+import type { Product } from "@/types";
 
 interface ProductFormProps {
-  product?: Product;
+  product?: Product | null;
   onSubmit: (data: ProductFormData) => Promise<void>;
   onCancel: () => void;
   isLoading?: boolean;

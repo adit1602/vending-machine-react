@@ -4,7 +4,7 @@ import type React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { formatCurrency } from "src/utils/currency";
+import { formatCurrency } from "@/utils/currency";
 import { Coins, Banknote, RotateCcw } from "lucide-react";
 
 interface BalancePanelProps {

@@ -5,36 +5,73 @@
       "name": "Aqua",
       "price": 5000,
       "stock": 4,
-      "image": "/placeholder.svg?height=150&width=150"
+      "image": "src/assets/realaqua.jpg"
     },
     {
       "id": "2",
       "name": "Coca Cola",
       "price": 8000,
-      "stock": 3,
-      "image": "/placeholder.svg?height=150&width=150"
+      "stock": 2,
+      "image": "src/assets/cocacola.jpg"
     },
     {
       "id": "3",
       "name": "Chips",
       "price": 7000,
-      "stock": 1,
-      "image": "/placeholder.svg?height=150&width=150"
+      "stock": 20,
+      "image": "src/assets/chitato.jpg"
     },
     {
       "id": "4",
       "name": "Chocolate",
       "price": 10000,
-      "stock": 2,
-      "image": "/placeholder.svg?height=150&width=150"
+      "stock": 10,
+      "image": "src/assets/chocolate.jpg"
     },
     {
       "id": "5",
       "name": "Tea Bottle",
       "price": 6000,
-      "stock": 5,
-      "image": "/placeholder.svg?height=150&width=150"
+      "stock": 3,
+      "image": "src/assets/tehbotol.jpg"
     }
   ],
-  "transactions": []
+  "transactions": [
+    {
+      "id": "ebb7",
+      "productName": "Chips",
+      "price": 7000,
+      "date": "2025-08-24T06:33:22.789Z"
+    },
+    {
+      "id": "b1ae",
+      "productName": "Chocolate",
+      "price": 10000,
+      "date": "2025-08-24T06:33:31.944Z"
+    },
+    {
+      "id": "76d9",
+      "productName": "Chocolate",
+      "price": 10000,
+      "date": "2025-08-24T06:41:48.166Z"
+    },
+    {
+      "id": "fb9e",
+      "productName": "Tea Bottle",
+      "price": 6000,
+      "date": "2025-08-24T06:41:53.065Z"
+    },
+    {
+      "id": "a70b",
+      "productName": "Coca Cola",
+      "price": 8000,
+      "date": "2025-08-24T06:51:52.563Z"
+    },
+    {
+      "id": "54d8",
+      "productName": "Tea Bottle",
+      "price": 6000,
+      "date": "2025-08-24T06:52:31.603Z"
+    }
+  ]
 }

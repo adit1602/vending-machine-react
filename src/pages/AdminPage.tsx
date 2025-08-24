@@ -2,9 +2,9 @@
 
 import type React from "react";
 import { useState } from "react";
-import { ProductForm } from "src/components/ProductForm";
-import { ProductManagementTable } from "src/components/ProductManagementTable";
-import { TransactionNotification } from "src/components/TransactionNotification";
+import { ProductForm } from "@/components/ProductForm";
+import { ProductManagementTable } from "@/components/ProductManagementTable";
+import { TransactionNotification } from "@/components/TransactionNotification";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -14,10 +14,10 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { useProducts } from "src/hooks/useProducts";
-import { api } from "src/services/api";
-import type { Product } from "src/types";
-import type { ProductFormData } from "src/schemas/productSchema";
+import { useProducts } from "@/hooks/useProducts";
+import { api } from "@/services/api";
+import type { Product } from "@/types";
+import type { ProductFormData } from "@/schemas/productSchema";
 
 type AdminMode = "table" | "add" | "edit";
 

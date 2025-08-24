@@ -4,8 +4,8 @@ import type React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { formatCurrency } from "src/utils/currency";
-import type { Product } from "src/types";
+import { formatCurrency } from "@/utils/currency";
+import type { Product } from "@/types";
 
 interface ProductCardProps {
   product: Product;

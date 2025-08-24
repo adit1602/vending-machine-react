@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { api } from "src/services/api";
-import type { Product, Transaction } from "src/types";
+import { api } from "@/services/api";
+import type { Product, Transaction } from "@/types";
 
 export const useVendingMachine = () => {
   const [balance, setBalance] = useState(0);

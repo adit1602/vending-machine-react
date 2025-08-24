@@ -12,9 +12,9 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { formatCurrency } from "src/utils/currency";
+import { formatCurrency } from "@/utils/currency";
 import { Edit, Trash2, Package, Plus } from "lucide-react";
-import type { Product } from "src/types";
+import type { Product } from "@/types";
 
 interface ProductManagementTableProps {
   products: Product[];

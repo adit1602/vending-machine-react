@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { api } from "src/services/api";
-import type { Product } from "src/types";
+import { api } from "@/services/api";
+import type { Product } from "@/types";
 
 export const useProducts = () => {
   const [products, setProducts] = useState<Product[]>([]);

@@ -2,9 +2,9 @@
 
 import type React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { formatCurrency } from "src/utils/currency";
+import { formatCurrency } from "@/utils/currency";
 import { TrendingUp, ShoppingCart, Calendar, DollarSign } from "lucide-react";
-import type { Transaction } from "src/types";
+import type { Transaction } from "@/types";
 
 interface TransactionSummaryProps {
   transactions: Transaction[];

@@ -1,13 +1,13 @@
 "use client";
 
 import type React from "react";
-import { ProductCard } from "src/components/ProductCard";
-import { BalancePanel } from "src/components/BalancePanel";
-import { TransactionNotification } from "src/components/TransactionNotification";
-import { useProducts } from "src/hooks/useProducts";
-import { useVendingMachine } from "src/hooks/useVendingMachine";
+import { ProductCard } from "@/components/ProductCard";
+import { BalancePanel } from "@/components/BalancePanel";
+import { TransactionNotification } from "@/components/TransactionNotification";
+import { useProducts } from "@/hooks/useProducts";
+import { useVendingMachine } from "@/hooks/useVendingMachine";
 import { useState } from "react";
-import type { Product } from "src/types";
+import type { Product } from "@/types";
 
 export const HomePage: React.FC = () => {
   const { products, loading, error, updateProductStock } = useProducts();

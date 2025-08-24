@@ -11,9 +11,9 @@ import {
 } from "@/components/ui/table";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { formatCurrency, formatDate } from "src/utils/currency";
+import { formatCurrency, formatDate } from "@/utils/currency";
 import { Receipt, Calendar, Package } from "lucide-react";
-import type { Transaction } from "src/types";
+import type { Transaction } from "@/types";
 
 interface TransactionTableProps {
   transactions: Transaction[];

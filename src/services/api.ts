@@ -14,7 +14,7 @@ export const api = {
     return response.json();
   },
 
-  async updateProduct(id: number, data: Partial<any>) {
+  async updateProduct(id: number, data: Partial<import("@/types").ProductFormData>) {
     const response = await fetch(`${API_BASE_URL}/products/${id}`, {
       method: "PATCH",
       headers: {
@@ -26,7 +26,7 @@ export const api = {
     return response.json();
   },
 
-  async createProduct(data: any) {
+  async createProduct(data: import("@/types").ProductFormData) {
     const response = await fetch(`${API_BASE_URL}/products`, {
       method: "POST",
       headers: {
@@ -53,7 +53,7 @@ export const api = {
     return response.json();
   },
 
-  async createTransaction(data: any) {
+  async createTransaction(data: Partial<import("@/types").Transaction>) {
     const response = await fetch(`${API_BASE_URL}/transactions`, {
       method: "POST",
       headers: {

@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { api } from "src/services/api";
-import type { Transaction } from "src/types";
+import { api } from "@/services/api";
+import type { Transaction } from "@/types";
 
 export const useTransactions = () => {
   const [transactions, setTransactions] = useState<Transaction[]>([]);

@@ -1,11 +1,11 @@
 "use client";
 
 import type React from "react";
-import { TransactionTable } from "src/components/TransactionTable";
-import { TransactionSummary } from "src/components/TransactionSummary";
-import { TransactionNotification } from "src/components/TransactionNotification";
+import { TransactionTable } from "@/components/TransactionTable";
+import { TransactionSummary } from "@/components/TransactionSummary";
+import { TransactionNotification } from "@/components/TransactionNotification";
 import { Button } from "@/components/ui/button";
-import { useTransactions } from "src/hooks/useTransactions";
+import { useTransactions } from "@/hooks/useTransactions";
 import { RefreshCw, Download } from "lucide-react";
 import { useState } from "react";
 
