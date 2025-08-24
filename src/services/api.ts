@@ -14,7 +14,10 @@ export const api = {
     return response.json();
   },
 
-  async updateProduct(id: number, data: Partial<import("@/types").ProductFormData>) {
+  async updateProduct(
+    id: number,
+    data: Partial<import("@/types").ProductFormData>
+  ) {
     const response = await fetch(`${API_BASE_URL}/products/${id}`, {
       method: "PATCH",
       headers: {
