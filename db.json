@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Aqua",
+      "price": 5000,
+      "stock": 4,
+      "image": "/placeholder.svg?height=150&width=150"
+    },
+    {
+      "id": "2",
+      "name": "Coca Cola",
+      "price": 8000,
+      "stock": 3,
+      "image": "/placeholder.svg?height=150&width=150"
+    },
+    {
+      "id": "3",
+      "name": "Chips",
+      "price": 7000,
+      "stock": 1,
+      "image": "/placeholder.svg?height=150&width=150"
+    },
+    {
+      "id": "4",
+      "name": "Chocolate",
+      "price": 10000,
+      "stock": 2,
+      "image": "/placeholder.svg?height=150&width=150"
+    },
+    {
+      "id": "5",
+      "name": "Tea Bottle",
+      "price": 6000,
+      "stock": 5,
+      "image": "/placeholder.svg?height=150&width=150"
+    }
+  ],
+  "transactions": []
+}
